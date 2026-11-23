@@ -1,0 +1,12 @@
+raw/
+*.zip
+.DS_Store
+__pycache__/
+*.pyc
+output/09_all_corporate_donations_12elections.csv
+
+# 含 L2／L3／X 姓名與遮罩證號，僅供本機比對，不公開
+output/08_natural_person_donations_matched.csv
+output/08_natural_person_roster.csv
+output/11_natural_person_donations_two_terms.csv
+output/11_natural_person_roster_two_terms.csv

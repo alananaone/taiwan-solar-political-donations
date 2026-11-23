@@ -1,0 +1,214 @@
+{
+  "zip_stats": {
+    "total_zips_in_6_elections": 3143,
+    "unmatched_zip_names": [],
+    "dedup_zips_total": 2004,
+    "dedup_serial1_candidates": 1773,
+    "dedup_serial_ge2_remain_reports": 231,
+    "serial_ge2_total_income_rows": 404,
+    "serial_ge2_corp_rows": 0,
+    "serial_ge2_subjects": {
+      "其他收入": 404
+    }
+  },
+  "validation_a_wang_shih_chien": {
+    "expected_from_user_file": {
+      "total_income_rows": 207,
+      "corp_gross": 4326450.0,
+      "corp_returned": 250000.0,
+      "corp_net": 4076450.0
+    },
+    "kiang_actual": {
+      "total_income_rows": 207,
+      "corp_rows": 33,
+      "corp_gross": 4326450.0,
+      "corp_returned": 250000.0,
+      "corp_net": 4076450.0,
+      "summary_corp": 4326450.0,
+      "summary_total": 11529667.0,
+      "returned_items": [
+        {
+          "donor": "御上廣告股份有限公司",
+          "tax_id": "53763006",
+          "amount": 200000.0,
+          "flag": "已返還"
+        },
+        {
+          "donor": "上展金屬工業股份有限公司",
+          "tax_id": "22361371",
+          "amount": 50000.0,
+          "flag": "已返還"
+        }
+      ]
+    },
+    "openfun_actual": {
+      "total_income_rows": 207,
+      "corp_rows": 33,
+      "corp_gross": 4326450.0,
+      "corp_returned": 250000.0,
+      "corp_net": 4076450.0
+    },
+    "exact_match": true
+  },
+  "validation_b_zip_details_vs_summary": {
+    "total_candidates_checked": 1773,
+    "exact_match_within_1_twd": 1773,
+    "match_rate_pct": 100.0,
+    "diffs": []
+  },
+  "validation_c_kiang_vs_openfun": {
+    "corp_diff_candidate_count": 3,
+    "corp_diffs": [
+      {
+        "election": "111年直轄市市長選舉",
+        "area": "桃園市",
+        "candidate": "賴香伶",
+        "kiang_zip": "賴香伶_1_v5.zip",
+        "kiang_corr_date": "1141021",
+        "kiang_corp_count": 13,
+        "kiang_corp_gross": 1440000.0,
+        "kiang_corp_net": 1270000.0,
+        "openfun_corp_count": 14,
+        "openfun_corp_gross": 1460000.0,
+        "openfun_corp_net": 1290000.0,
+        "diff_gross_kiang_minus_openfun": -20000.0,
+        "diff_net_kiang_minus_openfun": -20000.0
+      },
+      {
+        "election": "111年直轄市議員選舉",
+        "area": "高雄市",
+        "candidate": "陳子瑜",
+        "kiang_zip": "陳子瑜_1_v4.zip",
+        "kiang_corr_date": "1150204",
+        "kiang_corp_count": 6,
+        "kiang_corp_gross": 545338.0,
+        "kiang_corp_net": 535000.0,
+        "openfun_corp_count": 7,
+        "openfun_corp_gross": 585338.0,
+        "openfun_corp_net": 575000.0,
+        "diff_gross_kiang_minus_openfun": -40000.0,
+        "diff_net_kiang_minus_openfun": -40000.0
+      },
+      {
+        "election": "113年立法委員選舉",
+        "area": "桃園市",
+        "candidate": "馬治薇",
+        "kiang_zip": "馬治薇_1_v3.zip",
+        "kiang_corr_date": "1140212",
+        "kiang_corp_count": 1,
+        "kiang_corp_gross": 50000.0,
+        "kiang_corp_net": 50000.0,
+        "openfun_corp_count": 2,
+        "openfun_corp_gross": 34406.0,
+        "openfun_corp_net": 34406.0,
+        "diff_gross_kiang_minus_openfun": 15594.0,
+        "diff_net_kiang_minus_openfun": 15594.0
+      }
+    ],
+    "kiang_only_zero_income_candidates_count": 138,
+    "kiang_only_nonzero_income_candidates": [],
+    "openfun_only_candidates": [],
+    "election_comparison": {
+      "113年總統、副總統選舉": {
+        "kiang_candidates": 17,
+        "kiang_corp_rows": 1371,
+        "kiang_corp_gross": 238270052.0,
+        "kiang_corp_returned": 12573714.0,
+        "kiang_corp_net": 225696338.0,
+        "kiang_summary_corp_gross": 238270052.0,
+        "openfun_corp_rows": 1371,
+        "openfun_corp_gross": 238270052.0,
+        "openfun_corp_returned": 12573714.0,
+        "openfun_corp_net": 225696338.0
+      },
+      "113年立法委員選舉": {
+        "kiang_candidates": 279,
+        "kiang_corp_rows": 5896,
+        "kiang_corp_gross": 742857839.0,
+        "kiang_corp_returned": 68173560.0,
+        "kiang_corp_net": 674684279.0,
+        "kiang_summary_corp_gross": 742857839.0,
+        "openfun_corp_rows": 5897,
+        "openfun_corp_gross": 742842245.0,
+        "openfun_corp_returned": 68173560.0,
+        "openfun_corp_net": 674668685.0
+      },
+      "111年直轄市市長選舉": {
+        "kiang_candidates": 38,
+        "kiang_corp_rows": 1215,
+        "kiang_corp_gross": 290188076.0,
+        "kiang_corp_returned": 22891369.0,
+        "kiang_corp_net": 267296707.0,
+        "kiang_summary_corp_gross": 290188076.0,
+        "openfun_corp_rows": 1216,
+        "openfun_corp_gross": 290208076.0,
+        "openfun_corp_returned": 22891369.0,
+        "openfun_corp_net": 267316707.0
+      },
+      "111年縣(市)長選舉": {
+        "kiang_candidates": 58,
+        "kiang_corp_rows": 1300,
+        "kiang_corp_gross": 243168306.0,
+        "kiang_corp_returned": 27970600.0,
+        "kiang_corp_net": 215197706.0,
+        "kiang_summary_corp_gross": 243168306.0,
+        "openfun_corp_rows": 1300,
+        "openfun_corp_gross": 243168306.0,
+        "openfun_corp_returned": 27970600.0,
+        "openfun_corp_net": 215197706.0
+      },
+      "111年直轄市議員選舉": {
+        "kiang_candidates": 720,
+        "kiang_corp_rows": 9706,
+        "kiang_corp_gross": 928635128.0,
+        "kiang_corp_returned": 121208875.0,
+        "kiang_corp_net": 807426253.0,
+        "kiang_summary_corp_gross": 928635128.0,
+        "openfun_corp_rows": 9707,
+        "openfun_corp_gross": 928675128.0,
+        "openfun_corp_returned": 121208875.0,
+        "openfun_corp_net": 807466253.0
+      },
+      "111年縣(市)議員選舉": {
+        "kiang_candidates": 661,
+        "kiang_corp_rows": 2163,
+        "kiang_corp_gross": 158203038.0,
+        "kiang_corp_returned": 21283867.0,
+        "kiang_corp_net": 136919171.0,
+        "kiang_summary_corp_gross": 158203038.0,
+        "openfun_corp_rows": 2163,
+        "openfun_corp_gross": 158203038.0,
+        "openfun_corp_returned": 21283867.0,
+        "openfun_corp_net": 136919171.0
+      }
+    }
+  },
+  "validation_d_baseline_summary": {
+    "total_corp_donation_rows": 21651,
+    "unique_donating_corps": 13542,
+    "corr_flag_unique_values": {
+      "": 21646,
+      "★": 5
+    },
+    "returned_flag_unique_values": {
+      "": 18599,
+      "已返還": 2932,
+      "已繳庫": 120
+    },
+    "non_8digit_tax_ids": [
+      {
+        "election": "111年縣(市)議員選舉",
+        "area": "南投縣",
+        "candidate": "李洲忠",
+        "tax_id_raw": "2865526",
+        "donor_name": "國堂建設股份有限公司",
+        "amount": 60000.0
+      }
+    ],
+    "candidates_csv_election_prefixes": [
+      "2018-11",
+      "2020-01"
+    ],
+    "party_metadata_available_for_111_113": false
+  }
+}
